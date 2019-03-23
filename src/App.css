@@ -1,0 +1,23 @@
+select {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.emoji {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -25px;
+  font-size: 50px;
+}
+
+.nose::after {
+  content: '👃';
+}
+
+.leftEye::after,
+.rightEye::after {
+  content: '👁️';
+}
